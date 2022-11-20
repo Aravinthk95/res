@@ -1,0 +1,309 @@
+body{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+#Bigparent{
+    display: flex;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+.subcontainer01{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(163, 156, 156);
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+/* .sub01{
+    background-color: rgb(163, 156, 156);
+} */
+
+.ima{
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    border-style: dotted;
+    border-color: gold;
+    border-image: round;
+    align-items: center;
+    margin-left: 630px;
+    
+  
+
+}
+
+
+
+.sub02{
+    display: flex;
+    height: 50px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub03{
+    display: flex;
+    height: 50px;
+    background-color:rgb(163, 156, 156);
+    width:100%;
+}
+
+
+.sub04{
+    display: flex;
+    height: 50px;
+    /* background-color: white; */
+    align-items: center;
+    background-color:black;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.br{
+    background-color: gold;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* padding-top: 50px; */
+    font-size: 60px;
+}
+
+#parent{
+     display: flex;
+     flex-direction: row;
+}
+
+
+.subparent01{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:thistle;
+    padding-top: 20px;
+
+
+}
+
+
+.subparent02{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:peachpuff;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+}
+
+.subchild01{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+   
+}
+
+
+ .child1{ 
+    display: flex;
+    flex-direction:row;
+    /* padding-left: 20px; */
+    
+}
+
+.subchild02{
+    display: flex;
+    flex-direction: row;
+}
+
+.subchild03{
+    display: flex;
+    flex-direction:column;
+}
+
+/* .pro{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+} */
+
+.prof{
+    padding-left: 20px;
+}
+
+.sk{
+    /* display:flex; */
+    padding-left: 20px;
+    /* padding-bottom: 20px; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wor{
+    /* display:flex; */
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+.imae{
+    display: flex;
+    /* justify-content: flex-start; */
+    /* border: 5px; */
+    border-style: dotted;
+    border-color:crimson;
+    /* border-image: round; */
+    /* align-items:flex-start;  */
+    /* padding-left: 20px; */
+    
+}
+.order{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    float: left;
+    width:100%;
+    
+}
+
+.child02{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    float: left;
+   
+
+}
+
+/* .child0102{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    float: left;
+    
+} */
+
+.three{
+    display: flex;
+    flex-direction: column;
+}
+
+.parfol{
+    display: flex;
+    flex-direction: row;
+}
+
+.tc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+ 
+}
+
+.ran{
+    float: right;
+    /* padding-left: 30px; */
+}
+
+.unl{
+    display: flex;
+    flex-direction: column;
+}
+.ad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+
+}
+
+
+.o{
+    display: flex;
+    flex-direction: column;
+}
+
+.subc{
+    display: flex;
+    flex-direction: row;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+}
+
+.da{
+    padding-left: 410px;
+    
+}
+
+.subchild001{
+    display: flex;
+    flex-direction: row;
+}
+.work{
+    padding-left: 20px;
+}
+
+
+.twoo{
+    display: flex;
+    flex-direction: row;
+}
+
+.daa{
+    padding-left: 410px;
+}
+
+.subchild002{
+    display: flex;
+    flex-direction: row;
+}
+
+.edu{
+    padding-left: 20px;
+}
+
+
+.tow{
+    display: flex;
+    flex-direction: row;
+}
+
+.das{
+    padding-left: 410px;
+       /* margin-left: 410px; */
+}
+
+.pan{
+    display: flex;
+    flex-direction: row; 
+}
+
+.alm{
+    padding-left: 470px;  
+}
